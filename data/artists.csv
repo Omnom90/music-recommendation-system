@@ -1,0 +1,11 @@
+id,name,genre,popularity_score,tags
+1,Travis Scott,Hip-Hop,0.9,trap;autotune;dark
+2,Unknown Artist,Indie,0.2,experimental;underground;atmospheric
+3,Gunna,Hip-Hop,0.8,trap;melodic;mainstream
+4,Indie Band,Indie,0.3,alternative;lo-fi;underground
+5,Drake,Hip-Hop,0.95,pop;mainstream;commercial
+6,Underground Rapper,Rap,0.1,conscious;underground;lyrical
+7,Pop Star,Pop,0.9,mainstream;commercial;catchy
+8,Experimental Artist,Electronic,0.15,experimental;avant-garde;underground
+9,Classic Rock Band,Rock,0.7,classic;guitar;mainstream
+10,Indie Folk Artist,Folk,0.25,acoustic;underground;melodic 

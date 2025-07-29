@@ -1,0 +1,47 @@
+# Build directories
+build/
+bin/
+obj/
+
+# Executables
+music_recommender
+spotify_auth
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Library files
+*.a
+*.lib
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Sensitive data (if any)
+*.key
+*.pem
+secrets.txt 

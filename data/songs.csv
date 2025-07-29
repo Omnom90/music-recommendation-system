@@ -1,0 +1,11 @@
+id,name,artist_id,popularity_score,features
+1,SICKO MODE,1,0.9,0.8;0.9;0.7;0.6
+2,Underground Track,2,0.2,0.3;0.2;0.8;0.9
+3,Mainstream Hit,3,0.8,0.7;0.8;0.5;0.4
+4,Indie Song,4,0.3,0.4;0.3;0.9;0.8
+5,Commercial Song,5,0.95,0.9;0.95;0.3;0.2
+6,Conscious Rap,6,0.1,0.2;0.1;0.9;0.95
+7,Pop Hit,7,0.9,0.8;0.9;0.2;0.1
+8,Experimental Track,8,0.15,0.1;0.15;0.95;0.9
+9,Classic Rock Song,9,0.7,0.6;0.7;0.4;0.3
+10,Folk Song,10,0.25,0.3;0.25;0.8;0.7 
