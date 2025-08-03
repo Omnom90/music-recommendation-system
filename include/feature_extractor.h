@@ -1,25 +1,26 @@
 #pragma once
 #include "types.h"
 #include <vector>
+#include <string>
 using namespace std;
 
 class FeatureExtractor {
 public:
-    // extract features from audio files
+    // Extract features from artists and songs
     vector<double> extractArtistFeatures(const Artist& artist);
-
-    // extract features from audio files
     vector<double> extractSongFeatures(const Song& song);
-
-    // normalize feature vectors
+    
+    // Normalize feature vectors
     vector<double> normalizeFeatures(const vector<double>& features);
-
-    // get feature names for debugging
+    
+    // Get feature names for debugging
     vector<string> getFeatureNames() const;
 
 private:
-    // helper methods and functions for specific feature extraction
+    // Helper methods for specific feature extraction
     double extractGenreFeatures(const string& genre);
     double extractPopularityFeatures(double popularity_score);
     double extractTagFeatures(const vector<string>& tags);
+    double extractGenreDiversity(const vector<string>& tags);
+    double extractUndergroundFactor(double popularity_score);
 };

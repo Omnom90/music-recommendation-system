@@ -26,6 +26,9 @@ private:
 
     // helper methods and functions
     void loadData();
+    void loadSpotifyData();
+    void trainMLModels();
+    string getSpotifyAccessToken();
     void handleArtistRecommendation(const string& artist_name);
     void handleSongRecommendation(const string& song_title);
 };
